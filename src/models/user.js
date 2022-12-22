@@ -18,12 +18,7 @@ const userSchema = mongoose.Schema({
 		require: true,
 	},
 	favorites: {
-		type: Object,
-		properties: {
-			id: {
-				type: String,
-			},
-		},
+		type: String,
 	},
 });
 
